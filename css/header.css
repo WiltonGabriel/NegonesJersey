@@ -227,6 +227,8 @@
     left: 1rem;
     right: 1rem;
     box-shadow: 0 18px 35px rgba(0, 0, 0, 0.14);
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
   }
 
   .main-nav.open .submenu {
