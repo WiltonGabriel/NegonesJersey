@@ -18,7 +18,7 @@ const loadComponent = async (containerId, path) => {
   }
 };
 
-window.addEventListener("DOMContentLoaded", async () => {
+(async () => {
   await Promise.all([
     loadComponent("component-header", "components/header.html"),
     loadComponent("component-banner", "components/banner.html"),
@@ -42,4 +42,4 @@ window.addEventListener("DOMContentLoaded", async () => {
     const id = params.get("id");
     if (window.NEGO_PRODUCT_PAGE) await window.NEGO_PRODUCT_PAGE.render(id);
   }
-});
+})();
