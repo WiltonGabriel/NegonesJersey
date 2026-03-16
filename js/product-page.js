@@ -21,7 +21,7 @@ window.NEGO_PRODUCT_PAGE = {
           ${product.images
             .map(
               (src, idx) =>
-                `<button type="button" class="thumb" data-image="assets/images/${src}" style="background-image: url('assets/images/${src}');" aria-label="Ver imagem ${idx + 1}"></button>`
+                `<button type="button" class="thumb" data-image="${src}" style="background-image: url('${src}');" aria-label="Ver imagem ${idx + 1}"></button>`
             )
             .join("")}
           <div class="product-main-image" role="img" aria-label="Imagem do produto"></div>
@@ -76,7 +76,7 @@ window.NEGO_PRODUCT_PAGE = {
     });
 
     if (product.images.length > 0) {
-      updateMainImage(`assets/images/${product.images[0]}`);
+      updateMainImage(`${product.images[0]}`);
     }
 
     // Formulário de compra
