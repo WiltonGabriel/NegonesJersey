@@ -21,14 +21,14 @@ window.NEGO_PRODUCT_PAGE = {
           ${product.images
             .map(
               (src, idx) =>
-                `<button type="button" class="thumb" data-image="assets/images/${src}" style="background-image: url('assets/images/${src}');" aria-label="Ver imagem ${idx + 1}"></button>`
+                `<button type="button" class="thumb" data-image="${src}" style="background-image: url('${src}');" aria-label="Ver imagem ${idx + 1}"></button>`
             )
             .join("")}
           <div class="product-main-image" role="img" aria-label="Imagem do produto"></div>
         </div>
 
         <div class="product-info">
-          <h1>${product.name}</h1>
+          <h1 class="product-page__title">${product.name}</h1>
           <p class="product-code">Código: ${product.code}</p>
           <p class="product-price">${product.currency} ${product.price.toFixed(2)}</p>
           <p class="product-description">${product.description}</p>
@@ -76,7 +76,7 @@ window.NEGO_PRODUCT_PAGE = {
     });
 
     if (product.images.length > 0) {
-      updateMainImage(`assets/images/${product.images[0]}`);
+      updateMainImage(`${product.images[0]}`);
     }
 
     // Formulário de compra

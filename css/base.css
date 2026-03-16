@@ -1,12 +1,12 @@
 /* base.css - variáveis, tipografia e utilitários */
 :root {
-  --bg: #f4f4f7;
-  --text: #1f2430;
-  --muted: #4b5563;
-  --brand: #d90429;
-  --brand-dark: #2b2d42;
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --muted: #64748b;
+  --brand: #e11d48;
+  --brand-dark: #0f172a;
   --card: #ffffff;
-  --shadow: rgba(0,0,0,0.12);
+  --shadow: rgba(15, 23, 42, 0.08);
 }
 
 * {

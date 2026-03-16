@@ -70,14 +70,14 @@ window.NEGO_UI = {
 
     root.innerHTML = `
       <span class="badge ${product.badge ? "badge-" + product.badge.toLowerCase() : ""}">${product.badge || ""}</span>
-      <div class="product-card__image" aria-hidden="true" style="background-image: url('assets/images/${product.images[0]}');"></div>
+      <div class="product-card__image" aria-hidden="true" style="background-image: url('${product.images[0]}');"></div>
       <div class="product-card__body">
         <h3 class="product-card__title">${product.name}</h3>
         <p class="product-card__sub">${product.description}</p>
         ${tagsHtml ? `<div class="product-card__tags">${tagsHtml}</div>` : ""}
         <p class="product-card__price">${product.currency} ${product.price.toFixed(2)}</p>
         <div class="product-card__actions">
-          <a class="product-card__button" href="product.html?id=${encodeURIComponent(product.id)}">Ver produto</a>
+          <a class="product-card__button product-card__button--outline" href="product.html?id=${encodeURIComponent(product.id)}">Detalhes</a>
           <button class="product-card__button" type="button" data-action="add-to-cart">Adicionar</button>
         </div>
       </div>

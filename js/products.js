@@ -18,7 +18,7 @@ window.NEGO_PRODUCTS = {
       "description": "A camisa da Copa de 1970 — um clássico do futebol brasileiro com história e identidade.",
       "details": "Camisa 100% poliéster leve, costura reforçada e design inspirado no uniforme usado na histórica final de 1970. Ideal para colecionadores e fanáticos por seleção.",
       "images": [
-        "prod-brasil-1970.svg"
+        "assets/images/products/prod-brasil-1970.svg"
       ],
       "sizes": ["P", "M", "G", "GG"],
       "tags": ["seleção", "clássica"]
@@ -34,7 +34,7 @@ window.NEGO_PRODUCTS = {
       "description": "O manto rubro-negro oficial de 2023, com acabamento premium e detalhes especiais.",
       "details": "Tecido oficial, tecnologia Dry-FIT e padrão moderno. Ideal para quem veste Flamengo com orgulho dentro e fora do campo.",
       "images": [
-        "prod-flamengo-2023.svg"
+        "assets/images/products/prod-flamengo-2023.svg"
       ],
       "sizes": ["P", "M", "G", "GG"],
       "tags": ["clube", "oficial"]
@@ -50,7 +50,7 @@ window.NEGO_PRODUCTS = {
       "description": "A camisa clássica do Real Madrid de 1998, para quem aprecia tradição e estilo.",
       "details": "Reedição do uniforme usado em 1998, com gola polo e detalhes dourados, perfeita para colecionadores.",
       "images": [
-        "prod-real-1998.svg"
+        "assets/images/products/prod-real-1998.svg"
       ],
       "sizes": ["P", "M", "G", "GG"],
       "tags": ["europeu", "retrô"]
@@ -66,7 +66,7 @@ window.NEGO_PRODUCTS = {
       "description": "A nova camisa do Verdão para 2024, com design moderno e conforto absoluto.",
       "details": "Tecnologia de ventilação avançada e corte pensado para performance. Ideal para treino ou dia a dia.",
       "images": [
-        "prod-palmeiras-2024.svg"
+        "assets/images/products/prod-palmeiras-2024.svg"
       ],
       "sizes": ["P", "M", "G", "GG"],
       "tags": ["brasileirão", "novo"]
