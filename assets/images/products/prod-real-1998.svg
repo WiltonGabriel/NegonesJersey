@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250" role="img" aria-labelledby="prod3Title">
+  <title id="prod3Title">Camisa Real Madrid 1998</title>
+  <defs>
+    <linearGradient id="prod3grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cfd8dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="16" fill="url(#prod3grad)"/>
+  <text x="20" y="45" font-family="Segoe UI, system-ui, sans-serif" font-size="28" font-weight="700" fill="#2b2d42">Real Madrid 1998</text>
+  <text x="20" y="80" font-family="Segoe UI, system-ui, sans-serif" font-size="18" fill="#2b2d42">O manto merengue</text>
+</svg>

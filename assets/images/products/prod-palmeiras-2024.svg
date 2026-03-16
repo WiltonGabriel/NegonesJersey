@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250" role="img" aria-labelledby="prod4Title">
+  <title id="prod4Title">Camisa Palmeiras 2024</title>
+  <defs>
+    <linearGradient id="prod4grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00b894"/>
+      <stop offset="100%" stop-color="#55efc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="16" fill="url(#prod4grad)"/>
+  <text x="20" y="45" font-family="Segoe UI, system-ui, sans-serif" font-size="28" font-weight="700" fill="#2b2d42">Palmeiras 2024</text>
+  <text x="20" y="80" font-family="Segoe UI, system-ui, sans-serif" font-size="18" fill="#2b2d42">O Verdão renovado</text>
+</svg>

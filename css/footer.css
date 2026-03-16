@@ -1,0 +1,59 @@
+/* footer.css */
+
+.footer {
+  padding: 2rem 1rem;
+  background: #0c2b5c;
+  color: white;
+}
+
+.footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer__brand-title {
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: -0.03em;
+}
+
+.footer__brand-text {
+  margin: 0;
+  line-height: 1.6;
+  max-width: 320px;
+}
+
+.footer__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__links li {
+  margin: 0.4rem 0;
+}
+
+.footer__links a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
