@@ -1,8 +1,27 @@
 // js/app.js
-// Orquestra inicialização de UI e lógica de catálogo sem fetch.
+// Orquestra carregamento de componentes, inicialização de UI e lógica de catálogo.
+
+const loadComponent = (containerId, componentKey) => {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  const html = window.NEGO_COMPONENTS[componentKey];
+  if (html) {
+    // Using outerHTML so the div wrapper doesn't break CSS (e.g. body > header)
+    container.outerHTML = html;
+  } else {
+    console.warn(`Componente ${componentKey} não encontrado.`);
+  }
+};
 
 (async () => {
-  // Como agora o HTML está chumbado no documento, inicializamos a UI e o carrinho.
+  // Carregar os componentes de forma síncrona a partir da memória
+  loadComponent("component-header", "header");
+  loadComponent("component-banner", "banner");
+  loadComponent("component-products", "products");
+  loadComponent("component-cart-modal", "cartModal");
+  loadComponent("component-footer", "footer");
+
   window.NEGO_UI.init();
   window.NEGO_CART.init();
 

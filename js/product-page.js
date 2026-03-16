@@ -28,7 +28,7 @@ window.NEGO_PRODUCT_PAGE = {
         </div>
 
         <div class="product-info">
-          <h1>${product.name}</h1>
+          <h1 class="product-page__title">${product.name}</h1>
           <p class="product-code">Código: ${product.code}</p>
           <p class="product-price">${product.currency} ${product.price.toFixed(2)}</p>
           <p class="product-description">${product.description}</p>
